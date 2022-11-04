@@ -9,5 +9,4 @@ public class TennisPlayerSpringDataRestApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TennisPlayerSpringDataRestApplication.class, args);
 	}
-
 }
