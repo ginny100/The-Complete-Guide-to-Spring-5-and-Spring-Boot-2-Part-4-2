@@ -89,6 +89,17 @@ spring.h2-console.enabled=true
 spring.datasource.url=jdbc:h2:mem:testdb
 ```
 
+> __Note from `ginny100`:__ Since I don't customize the h2 database configuration properties in the `application.properties` file, the information used in the h2-console login page is all default.
+> 
+> | Field          | Value                 |
+> |----------------|-----------------------|
+> | Saved Settings | Generic H2 (Embedded) |
+> | Setting Name   | Generic H2 (Embedded) |
+> | Driver Class   | org.h2.Driver         |
+> | JDBC URL       | jdbc:h2:mem:testdb    |
+> | User Name      | sa                    |
+> | Password       |                       |
+
 ### Create repository
 
 The repository `PlayerRepository` extends the `JpaRepository` interface
